@@ -1,0 +1,17 @@
+﻿<Window x:Class="KinHarpe.TestMidi"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Test Midi" Height="346" Width="694"
+        Loaded="Window_Loaded" Closing="Window_Closing"
+        >
+    <Grid>
+        <Rectangle Height="135" HorizontalAlignment="Left" Margin="41,93,0,0" Name="rectangle1" Stroke="Black" VerticalAlignment="Top" Width="93" Fill="#FFFF8383" Tag="60" MouseDown="rectangle_MouseDown" MouseUp="rectangle_MouseUp"/>
+        <Rectangle Fill="#FFFF8383" Height="135" HorizontalAlignment="Left" Margin="140,93,0,0" Name="rectangle2" Stroke="Black" VerticalAlignment="Top" Width="93" Tag="62" MouseDown="rectangle_MouseDown" MouseUp="rectangle_MouseUp"/>
+        <Rectangle Fill="#FFFF8383" Height="135" HorizontalAlignment="Left" Margin="239,93,0,0" Name="rectangle3" Stroke="Black" VerticalAlignment="Top" Width="93" Tag="64" MouseDown="rectangle_MouseDown" MouseUp="rectangle_MouseUp"/>
+        <Rectangle Fill="#FFFF8383" Height="135" HorizontalAlignment="Left" Margin="338,93,0,0" Name="rectangle4" Stroke="Black" VerticalAlignment="Top" Width="93" Tag="66" MouseDown="rectangle_MouseDown" MouseUp="rectangle_MouseUp"/>
+        <Rectangle Fill="#FFFF8383" Height="135" HorizontalAlignment="Left" Margin="437,93,0,0" Name="rectangle5" Stroke="Black" VerticalAlignment="Top" Width="93" Tag="68" MouseDown="rectangle_MouseDown" MouseUp="rectangle_MouseUp"/>
+        <Rectangle Fill="#FFFF8383" Height="135" HorizontalAlignment="Left" Margin="536,93,0,0" Name="rectangle6" Stroke="Black" VerticalAlignment="Top" Width="93" Tag="70" MouseDown="rectangle_MouseDown" MouseUp="rectangle_MouseUp"/>
+        <ComboBox x:Name="cbxInstrument" Height="23" HorizontalAlignment="Left" Margin="41,24,0,0" 
+                  VerticalAlignment="Top" Width="272" SelectionChanged="cbxInstrument_SelectionChanged"/>
+    </Grid>
+</Window>
